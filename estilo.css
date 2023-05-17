@@ -1,11 +1,33 @@
 :root{
-    --branco-principal:"#FFFFFF";
-    --cinza-secundario:"#575757";
-    --botão-azul:"#167BF7";
-    --cor-de-fundo:"#E5E5E5";
+    --branco-principal:#FFFFFF;
+    --cinza-secundario:#575757;
+    --botão-azul:#167BF7;
+    --cor-de-fundo:#E5E5E5;
+    --fonte-principal: "oswald";
 }
 
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+*{
+    margin: 0%;
+    padding: 0%
+}
+
+.principal{
+    background-image: url("./img/image\ 12.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:30% 0%;
+    
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
