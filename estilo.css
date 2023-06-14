@@ -1,8 +1,8 @@
 :root{
     --branco-principal:#FFFFFF;
-    --cinza-secundario:#575757;
-    --botão-azul:#0155bb;
-    --cor-de-fundo:#E5E5E5;
+    --cinza-secundario:#949494;
+    --botão-azul:#167BF7;
+    --cor-de-fundo:#000000;
     --fonte-principal: "oswald";
 }
 
@@ -73,4 +73,20 @@ margin-bottom: 0. 1em;
 }
 .secundario--imagem{
     width: 80%;
+}
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+.rodape--lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+.lista--link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-size: 14px;
+    margin-left: 1em;
 }
